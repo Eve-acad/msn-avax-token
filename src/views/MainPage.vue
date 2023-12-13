@@ -15,9 +15,9 @@
 
                     <router-link to="/msn">File</router-link>
                 </li>
-                <li><a href="#">Birdeye</a></li>
-                <li><a href="https://solscan.io/token/">Solscan</a></li>
-                <li><a href="https://rugcheck.xyz/tokens/">Rugchecker</a></li>
+                <li><a href="#">Dexscreener</a></li>
+                <li><a href="#">Snowtrace</a></li>
+                <li><a href="#">Honeypot</a></li>
                 <li><a href="#">Help</a></li>
             </ul>
         </div>
@@ -271,7 +271,7 @@
     background-color: #f2f2f2;
     padding: 10px;
     text-align: center;
-    margin-top: 48px;
+    margin-top: 110px;
 }
 
 .msn-messenger-footer a {
