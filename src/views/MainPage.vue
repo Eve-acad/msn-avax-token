@@ -11,7 +11,10 @@
         </div>
         <div class="msn-messenger-nav">
             <ul>
-                <li>File</li>
+                <li>
+
+                    <router-link to="/msn">File</router-link>
+                </li>
                 <li><a href="#">Birdeye</a></li>
                 <li><a href="https://solscan.io/token/">Solscan</a></li>
                 <li><a href="https://rugcheck.xyz/tokens/">Rugchecker</a></li>
