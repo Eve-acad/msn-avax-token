@@ -568,7 +568,7 @@ a {
   background-size: cover;
   z-index: 10;
   position: relative;
-  .chat {
+ .chat {
     width: 487px;
     height: 488px;
     border-radius: 5px;
@@ -576,7 +576,6 @@ a {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0;
     padding: 85px 160px 170px 23px;
     box-sizing: border-box;
     margin: auto;
