@@ -88,10 +88,22 @@
 }
 
 .msn-messenger-window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 450px;
     height: 600px;
     border: 1px solid black;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.msn-messenger-header,
+.msn-messenger-nav,
+.msn-messenger-body,
+.msn-messenger-footer {
+    text-align: center;
+    width: 100%; /* Ensure full width inside the container */
 }
 
 .msn-messenger-header {
@@ -113,9 +125,8 @@
 
 .msn-messenger-nav ul {
     list-style: none;
-    margin: 0;
+    margin-left: 25px !important;
     padding: 0;
-    text-align: center;
 }
 
 .msn-messenger-nav li {
